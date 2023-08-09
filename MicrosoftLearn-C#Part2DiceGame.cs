@@ -18,7 +18,7 @@ if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
     }
     else
     {
-        Console.WriteLine("You rolled doubles!  +2 bonus to total!");
+        Console.WriteLine("You rolled doubles! +2 bonus to total!");
         total += 2;
         Console.WriteLine($"Your total after the bonus is {total}");
     }
@@ -38,11 +38,11 @@ else if (total >= 16)
 
 else if ((total > 10) && (total < 16))
 {
-    Console.WriteLine("You win a new laptop!");
+    Console.WriteLine("You win a new computer!");
 }
 
 else
 {
-    Console.WriteLine("You win a kitten!");
+    Console.WriteLine("You win a gum ball!");
 }
 
